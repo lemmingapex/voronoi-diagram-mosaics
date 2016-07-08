@@ -7,16 +7,18 @@ Create mosaics using voronoi diagrams
 ##Compile It
 
 Depends on openGL headers.  On debian based systems:
-
+```bash
 sudo apt-get install mesa-common-dev  
 sudo apt-get install libglu1-mesa-dev  
 sudo apt-get install freeglut3-dev  
 
 make
+```
 
 ##Run It
-
+```bash
 ./VoronoiDiagramMosaics <input.ppm>  
+```
 
 ##Notes
 
